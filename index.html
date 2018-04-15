@@ -3,53 +3,9 @@
     <head>
         <title>Webpage</title>
         <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-        <style type="text/css">
-            .slide-container {
-			
-            }
-            .blk {
-				padding: 10px;
-                min-height: 600px;
-				height: 100vh;
-            }
-            .content {
-                height: 100%;
-                background-color: #f00;
-            }
-            .nav-style {
-                background-color: #000;
-            }
-            nav ul li {
-                margin-left: 10px;
-                margin-right: 10px;
-            }
-			.c-item {
-				height: 500px;
-			}
-            .img-text {
-                font-size: 20px;
-            }
-            .proposal {
-                background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/proposal.jpeg') no-repeat fixed center;
-                background-size: cover;
-            }
-            .anniversary {
-                background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/anniversary.jpeg') no-repeat fixed center;
-                background-size: cover;
-            }
-            .bday {
-                background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/bday.jpg') no-repeat fixed center;
-                background-size: cover;
-            }
-			.content-temp {
-				height: 400px;
-			}
-			.footer {
-				background-color: #000;
-			}
-        </style>
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     </head>
     <body>
         <header>
@@ -62,10 +18,10 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
+                                <a class="nav-link" href="about.html">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Home</a>
+                                <a class="nav-link active" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Career</a>
@@ -80,27 +36,9 @@
                     </div>
                 </div>
             </nav>
-<!--
-            <nav>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-2 col-sm-4 col-12">
-                            <div class="display-4 text-white">Logo</div>
-                        </div>
-                        <div class="col-xl-10 col-sm-8 col-12 d-flex">
-                            <a href="#">About Us</a>
-                            <a href="#">Home</a>
-                            <a href="#">Career</a>
-                            <a href="#">Gifts</a>
-                            <a href="#">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
--->
         </header>
         <main>
-			<article class=''>
+			<article class='block'>
 				<div id="carousels" class="carousel slide" data-ride="carousel" data-pause='false'>
                     <div class="carousel-inner">
 					   <div class="carousel-item active bg-dark">
@@ -134,68 +72,66 @@
                     </a>
 				</div>
 			</article>
-            <article class="slide-container">
-                <section class="blk proposal" id='blk0'>
-					<div class='container h-100'>
-						<div class='row justify-content-around align-items-center h-100'>
-							<div class='col-md-6 col-sm-8 px-5'>
-								<img src="images/ring.png" class="img-fluid"/>
-							</div>
-							<div class='col-md-6 col-sm-8 text-white text-center order-md-first'>
-                                <div class="display-4 py-3">Proposals</div>
-								<div>
-                                    <div class="img-text">
-                                        Want to make your love proposal with a fairytale for your partner. Check out our surprises for your proposals.
-                                    </div>
-                                    <div class="my-3"><a href="#" class="p-1 text-white border rounded">View more>>></a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-                </section>
-                <section class='blk anniversary' id='blk1'>
-                   <div class='container h-100'>
-						<div class='row justify-content-around align-items-center h-100'>
-							<div class='col-md-6 col-sm-8 px-5'>
-								<img src="images/gift.png" class="img-fluid"/>
-							</div>
-							<div class='col-md-6 col-sm-8 text-white text-center'>
-                                <div class="display-4 py-3">Anniversaries</div>
-								<div>
-                                    <div class="img-text">
-									   Want your special days to be more memorable for you and your loved ones. Try our special ideas for your anniversary celebrations.
-                                    </div>
-                                    <div class="my-3"><a href="#" class="p-1 text-white border rounded">View more>>></a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-                </section>
-                <section class='blk bday' id='blk2'>
-                    <div class='container h-100'>
-						<div class='row justify-content-around align-items-center h-100'>
-							<div class='col-md-6 col-sm-8 px-5'>
-								<img src="images/cake.png" class="img-fluid"/>
-							</div>
-							<div class='col-md-6 col-sm-8 text-white text-center order-md-first'>
-                                <div class="display-4 py-3">Birthdays</div>
-								<div>
-                                    <div class="img-text">
-									   Why just cut a cake and sing a birthday song. Make those birthday celebrations a lot more happening and crazy with our birthday plans
-                                    </div>
-                                    <div class="my-3"><a href="#" class="p-1 text-white border rounded">View more>>></a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-                </section>
-            </article>
-            <article class='content-temp'>
+            <section class="block blk proposal" id='blk0'>
+                <div class='container h-100'>
+                    <div class='row justify-content-around align-items-center h-100'>
+                        <div class='col-md-6 col-sm-8 px-5'>
+                            <img src="images/ring.png" class="img-fluid"/>
+                        </div>
+                        <div class='col-md-6 col-sm-8 text-white text-center order-md-first'>
+                            <div class="display-4 py-3">Proposals</div>
+                            <div>
+                                <div class="img-text">
+                                    Want to make your love proposal with a fairytale for your partner. Check out our surprises for your proposals.
+                                </div>
+                                <div class="my-3"><a href="#" class="p-1 text-white border rounded">View more>>></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class='block blk anniversary' id='blk1'>
+               <div class='container h-100'>
+                    <div class='row justify-content-around align-items-center h-100'>
+                        <div class='col-md-6 col-sm-8 px-5'>
+                            <img src="images/gift.png" class="img-fluid"/>
+                        </div>
+                        <div class='col-md-6 col-sm-8 text-white text-center'>
+                            <div class="display-4 py-3">Anniversaries</div>
+                            <div>
+                                <div class="img-text">
+                                   Want your special days to be more memorable for you and your loved ones. Try our special ideas for your anniversary celebrations.
+                                </div>
+                                <div class="my-3"><a href="#" class="p-1 text-white border rounded">View more>>></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class='block blk bday' id='blk2'>
+                <div class='container h-100'>
+                    <div class='row justify-content-around align-items-center h-100'>
+                        <div class='col-md-6 col-sm-8 px-5'>
+                            <img src="images/cake.png" class="img-fluid"/>
+                        </div>
+                        <div class='col-md-6 col-sm-8 text-white text-center order-md-first'>
+                            <div class="display-4 py-3">Birthdays</div>
+                            <div>
+                                <div class="img-text">
+                                   Why just cut a cake and sing a birthday song. Make those birthday celebrations a lot more happening and crazy with our birthday plans
+                                </div>
+                                <div class="my-3"><a href="#" class="p-1 text-white border rounded">View more>>></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <article class='block content-temp'>
                 <div class="text-center display-4 mt-4">Content to Add</div>
             </article>
         </main>
         <footer>
-			<article class='footer py-4'>
+			<article class='footer py-4 block'>
                 <div class="container">
                     <div class="display-3 text-white">Links</div>
                     <hr class='bg-light'/>
@@ -226,15 +162,21 @@
             <script type="text/javascript" src="js/bootstrap.min.js"></script>
             <script type="text/javascript">
                 $(function() {
-                    
+                    blocks = $('.block');
 					scrolling = false;
-                    $('.blk').bind('mousewheel DOMMouseScroll', function(event){
+                    
+                    $('.block').bind('mousewheel DOMMouseScroll', function(event){
 						event.preventDefault();
                         if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
                             console.log("UP");
                             //RIGHT
-							current = $(this);
-							prev = current.prop('previousElementSibling');
+							index = blocks.index($(this));
+                            current = blocks[index];
+                            if (index == 0)
+                                prev = null;
+							else
+                                prev = blocks[--index];
+                            console.log(prev);
 							if(prev != null && scrolling == false) {
 								scrolling = true;
 								currentPos = window.scrollY;
@@ -252,15 +194,26 @@
 									});
 								}
 							} else if(prev == null) {
-                                $(this).unbind('mousewheel DOMMouseScroll');
+								scrolling = true;
+                                $('html, body').animate({
+								    scrollTop: 0
+								}, 100, function() {
+									scrolling = false;
+								});
+//                                $(this).unbind('mousewheel DOMMouseScroll');
                             }
                             
                         }
                         else {
                             console.log("DOWN");
                             //LEFT
-							current = $(this);
-							next = current.prop('nextElementSibling');
+                            index = blocks.index($(this));
+							current = blocks[index];
+							if (index == blocks.length - 1)
+                                next = null;
+							else
+                                next = blocks[++index];
+                            console.log(next);
 							if(next != null && scrolling == false) {
 								scrolling = true;
 								currentPos = window.scrollY;
@@ -278,6 +231,12 @@
 									});
 								}
 							} else if(next == null) {
+//                                scrolling = true;
+//                                $('html, body').animate({
+//								    scrollTop: $('.footer').offset().top
+//								}, 400, function() {
+//									scrolling = false;
+//								});
                                 $(this).unbind('mousewheel DOMMouseScroll');
                             }
                         }

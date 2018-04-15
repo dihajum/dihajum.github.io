@@ -1,0 +1,43 @@
+.slide-container {
+			
+}
+.blk {
+	padding: 10px;
+    min-height: 600px;
+	height: 100vh;
+}
+.content {
+    height: 100%;
+    background-color: #f00;
+}
+.nav-style {
+    background-color: #000;
+}
+nav ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.c-item {
+	height: 500px;
+}
+.img-text {
+    font-size: 20px;
+}
+.proposal {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/proposal.jpeg') no-repeat fixed center;
+    background-size: cover;
+}
+.anniversary {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/anniversary.jpeg') no-repeat fixed center;
+    background-size: cover;
+}
+.bday {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/bday.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+.content-temp {
+	height: 400px;
+}
+.footer {
+	background-color: #000;
+}
