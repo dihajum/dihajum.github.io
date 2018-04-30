@@ -18,7 +18,8 @@ nav ul li {
     margin-right: 10px;
 }
 .c-item {
-	height: 500px;
+	font-family: 'Zilla Slab Highlight', cursive;
+    font-weight: bold;
 }
 .img-text {
     font-size: 20px;
